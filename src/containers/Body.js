@@ -91,88 +91,55 @@ export const Body = () => {
       {' '}
       <Divider className='divider'></Divider>
       <BodyHeader className='new-header'>
-        What's new in OverVue 10.0?
+        What's new in OverVue 11.0?
       </BodyHeader>
       <SectionContainer>
         <Section>
           <HeadTwoStyle>
-            <h1>New and Improved "Tree Mode"</h1>
+            <h1>Boilerplate Code Generation</h1>
             <p className='p'>
-              Drag and drop tree nodes to dynamically change your app's
-              component structure!
+              Toggle between Options and Composition API displayed in the
+              boilerplate code generator!{''}
+              <img
+                alt='options-compAPI'
+                className='shadow num2'
+                src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWxoMnNoaHp4MThoOWtvem45b2c2MDVzcmd2ZngxbTBvNm5zYXV0NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Knz7Otco4dAPV89Enh/giphy.gif'
+                style={{ 'max-width': '250px' }}
+              />
             </p>
             <br />
-            <p>
-              You can still edit with Grid Mode by clicking the gear icon in the
-              top-right corner of the application.
-            </p>
           </HeadTwoStyle>
-          <img
-            alt='Tree Mode Gif'
-            className='shadow'
-            src='https://media.giphy.com/media/ZulevY0tBZnUOCDpY7/giphy.gif'
-          />
         </Section>
-
-        <ReverseLayout>
-          <img
-            alt='HTML Element List Gif'
-            className='shadow num2'
-            src='https://media.giphy.com/media/ZxQLQ23f2vaJq4F380/giphy.gif'
-            style={{ 'max-width': '250px' }}
-          />
-          <HeadTwoStyle>
-            <div className='num1'>
-              <h1>Nest HTML Elements</h1>
-              <p className='p'>
-                In the HTML Elements section, reposition and nest HTML elements
-                within your components by dragging and dropping.
-              </p>
-            </div>
-          </HeadTwoStyle>
-        </ReverseLayout>
 
         <Section>
-          <HeadTwoStyle>
-            <h1>Focus on a Specific Component</h1>
-            <p className='p'>
-              Double-click on a component within your tree to open up the
-              "component focus" modal.
-            </p>
-          </HeadTwoStyle>
-          <img
-            alt='Add html element Gif'
-            className='shadow'
-            src='https://media.giphy.com/media/7ACv2wDz7wscaTtXuk/giphy.gif'
-          />
+          <ReverseLayout>
+            <HeadTwoStyle>
+              <div className='num1'>
+                <h1>Pinia State Library Integration</h1>
+                <p className='p'>
+                  Under the hood, Pinia leverages Vue 3's Composition API,
+                  offering a more flexible and intuituve approach to state
+                  management.
+                </p>
+              </div>
+            </HeadTwoStyle>
+          </ReverseLayout>
         </Section>
-        <ReverseLayout>
-          <img
-            alt='Add html element Gif'
-            className='shadow num2'
-            src='https://media.giphy.com/media/qB5y0b4UUlKRODY1MO/giphy.gif'
-          />
+        <div className='aurora-2'></div>
+        <div className='aurora-3'></div>
+        <br />
+        <br />
+        <Section>
           <HeadTwoStyle>
-            <div className='num1'>
-              <h1>Accessible Vuetensils Components</h1>
+              <h1>Windows Users Rejoice!</h1>
               <p className='p'>
-                Quickly create accessible HTML elements by adding components
-                from the{' '}
-                <a href='https://vuetensils.com/Introduction.html'>
-                  Vuetensils component library
-                </a>
-                !
+                Windows users now have the ability to download and set up
+                OverVue. With OverVue 11.0, Teams with members using various
+                operating systems can collaborate effectively without
+                compatiblity issues.
               </p>
-              <div className='aurora-2'></div>
-              <div className='aurora-3'></div>
-              <br />
-              <p className='p'>
-                These naked components are designed with minimal bloat to let
-                you focus on development and accessible functionality.
-              </p>
-            </div>
           </HeadTwoStyle>
-        </ReverseLayout>
+        </Section>
       </SectionContainer>
       {/* <AdditionalFeature>
         <BodyHeader className='additional-feature-header'>
@@ -297,6 +264,7 @@ const ToggleButton = styled.div`
 const SectionContainer = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 100%;
   padding: 60px 32px;
@@ -307,10 +275,10 @@ const SectionContainer = styled.div`
 
 const Section = styled.div`
   display: flex;
-  width: 100%;
-  max-width: 1300px;
+
+  max-width: 100vw;
   justify-content: space-between;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 
   div {
     color: #000000;
@@ -356,7 +324,7 @@ const ReverseLayout = styled.div`
   width: 100%;
   max-width: 1300px;
   justify-content: space-between;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 
   div {
     color: #000000

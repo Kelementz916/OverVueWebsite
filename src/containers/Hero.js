@@ -79,6 +79,17 @@ export const Hero = () => (
           <i className='fab fa-brands fa-linux' />
         </div>
       </Button>
+      <br />
+      <br />
+      <Button
+        className={'button'}
+        href={downloadLinks.linux}
+      >
+        <div id='download'>
+          <div>Download for Windows</div>
+          <i className='fab fa-brands fa-windows' />
+        </div>
+      </Button>
       <div className='aurora-1'></div>
     </motion.div>
   </HeaderStyles>
