@@ -15,7 +15,7 @@ export default function EnvironmentSetup() {
         <h2>Setting Up Your OverVue Environment</h2>
         <br />
         <p>
-          OverVue 10.0 offers a versatile and powerful toolset designed to make
+          OverVue 11.0 offers a versatile and powerful toolset designed to make
           your tasks easier and more efficient.
         </p>
         <p>
@@ -54,7 +54,23 @@ export default function EnvironmentSetup() {
                 Please note that some functionality in Grid Mode may be disabled
                 or broken, as this view is now considered deprecated.
               </em>
+            <br />
+            <br />
             </p>
+            <h3>Code Generator Views in Options and Composition API</h3>
+            <p>
+              Another noteworthy feature introduced with the version 11.0 update is users now
+              have the ability to toggle between displaying their code template in <strong>Options</strong> or{' '}  
+              <strong>Compositions</strong> API, ensuring consistency between the visual prototype 
+              and the actual implementation.  
+            </p>
+            <br />
+            <img
+              alt='options-compAPI'
+              className='giphy-embed'
+              src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWxoMnNoaHp4MThoOWtvem45b2c2MDVzcmd2ZngxbTBvNm5zYXV0NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Knz7Otco4dAPV89Enh/giphy.gif'
+              style={{ 'max-width': '250px' }}
+            />
             <br />
           </div>
         </div>
