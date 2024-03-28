@@ -4,7 +4,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Button } from '../styles/Button';
 import { motion } from 'framer-motion';
-import main from '../assets/logo/overvue_trans.png';
+import main from '../assets/logo/v11White.png';
 import { downloadLinks } from '../data/download-links';
 // import Button from '@mui/material/Button';
 
