@@ -296,6 +296,36 @@ const devData = {
     'github-link': 'https://github.com/GomDave',
     img: davidL,
   },
+  AnthonyH: {
+    'dev-name': 'Anthony Herrera',
+    'github-handle': '@anthonyHerr',
+    'github-link': 'https://github.com/anthonyHerr',
+    img: davidL,
+  },
+  RoderickD: {
+    'dev-name': 'Roderick de Leon',
+    'github-handle': '@RoderickXii',
+    'github-link': 'https://github.com/RoderickXii',
+    img: RoderickD,
+  },
+  RobertS: {
+    'dev-name': 'Robert Sinzieri',
+    'github-handle': '@robsinz',
+    'github-link': 'https://github.com/robsinz',
+    img: robsinz,
+  },
+  KevinC: {
+    'dev-name': 'Kevin Can',
+    'github-handle': '@Kelementz916',
+    'github-link': 'https://github.com/Kelementz916',
+    img: kevinC,
+  },
+  DanielG: {
+    'dev-name': 'Daniel Garan',
+    'github-handle': '@DanielGaran02',
+    'github-link': 'https://github.com/DanielGaran02',
+    img: davidL,
+  },
 };
 
 export default devData;
