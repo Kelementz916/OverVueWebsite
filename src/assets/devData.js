@@ -42,6 +42,12 @@ import davidL from './dev-pics/davidlee.jpeg';
 import jaimeDV from './dev-pics/jaimedevenecia.png';
 import janica from './dev-pics/janicaabagat.jpeg';
 import trisha from './dev-pics/trishaduong.png';
+import kevinC from './dev-pics/kevinC.png';
+import robS from './dev-pics/robS.png';
+import danielG from './dev-pics/danielG.png';
+import anthonyH from './dev-pics/anthonyH.jpg';
+import roderickD from './dev-pics/roderickDL.jpeg';
+import placeholder from './dev-pics/placeholder.png';
 
 const devData = {
   deano: {
@@ -300,19 +306,19 @@ const devData = {
     'dev-name': 'Anthony Herrera',
     'github-handle': '@anthonyHerr',
     'github-link': 'https://github.com/anthonyHerr',
-    img: davidL,
+    img: anthonyH,
   },
   RoderickD: {
     'dev-name': 'Roderick de Leon',
     'github-handle': '@RoderickXii',
     'github-link': 'https://github.com/RoderickXii',
-    img: RoderickD,
+    img: roderickD,
   },
   RobertS: {
     'dev-name': 'Robert Sinzieri',
     'github-handle': '@robsinz',
     'github-link': 'https://github.com/robsinz',
-    img: robsinz,
+    img: robS,
   },
   KevinC: {
     'dev-name': 'Kevin Can',
@@ -324,7 +330,7 @@ const devData = {
     'dev-name': 'Daniel Garan',
     'github-handle': '@DanielGaran02',
     'github-link': 'https://github.com/DanielGaran02',
-    img: davidL,
+    img: danielG,
   },
 };
 
