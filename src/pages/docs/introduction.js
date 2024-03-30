@@ -19,9 +19,8 @@ export default function Introduction() {
         </p>
         <img
           alt='getting started'
-          src='https://media.giphy.com/media/kRNPHpjHKvoOni3S7q/giphy.gif'
-          style={{maxWidth: 300}}
-        ></img>
+          src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnY0MXprOWE5b2hsOWFvemhoa3g0a3lobXJiaGFmemVscTdzYzBtYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6JcTGjOqBndt954kpj/giphy.gif'
+          style={{ maxWidth: 300 }}></img>
         <br />
         <h3>Key Features</h3>​
         <ul className='minusMargin'>

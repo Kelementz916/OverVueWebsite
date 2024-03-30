@@ -1,5 +1,8 @@
 export const downloadLinks = {
-  macOS: 'https://github.com/open-source-labs/OverVue/releases/download/v10.0.0/OverVue-10.0.0-intel-mac.zip',
-  linux: 'https://github.com/open-source-labs/OverVue/releases/download/v10.0.0/overvue_10.0.0_amd64.deb',
-  //windows: ''
+  macOS:
+    'https://github.com/open-source-labs/OverVue/releases/download/v11.0.0/OverVue.universal-mac.zip',
+  linux:
+    'https://github.com/open-source-labs/OverVue/releases/download/v11.0.0/OverVue.AppImage',
+  windows:
+    'https://github.com/open-source-labs/OverVue/releases/download/v11.0.0/OverVue.exe',
 };

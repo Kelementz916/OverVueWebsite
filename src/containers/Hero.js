@@ -83,7 +83,7 @@ export const Hero = () => (
       <br />
       <Button
         className={'button'}
-        href={downloadLinks.linux}
+        href={downloadLinks.windows}
       >
         <div id='download'>
           <div>Download for Windows</div>

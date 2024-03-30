@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import linkedInLogo from '../assets/logo/linkedin.png';
+import GitHubIcon from '@mui/icons-material/GitHub';
 // import { Button } from "../styles/Button";
 // import { motion } from "framer-motion";
 // import main from "../assets/logo/overvue_trans.png";
@@ -11,18 +12,12 @@ export const Footer = () => {
       <Socials>
         <a
           className='social-link'
-          href='https://github.com/open-source-labs/OverVue'
-        >
-          <img
-            className='github_logo'
-            src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
-            alt='black github logo'
-          ></img>
+          href='https://github.com/open-source-labs/OverVue'>
+          <GitHubIcon fontSize='large' />
         </a>
         <a
           className='social-link'
-          href='https://www.linkedin.com/company/overvue-10/'
-        >
+          href='https://www.linkedin.com/company/overvue-10/'>
           <img alt='linkedIn logo' src={linkedInLogo}></img>
         </a>
       </Socials>

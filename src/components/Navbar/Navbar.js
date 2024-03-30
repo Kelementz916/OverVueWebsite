@@ -50,7 +50,7 @@ export default function Navbar() {
         <img class='overVue_logo' src={logo} alt={'logo'} />
       </Link>
       <div className='nav_actions' id={showNavLinks ? 'hidden' : ''}>
-        <Link className='nav_docs' to={'/docs/installation'}>
+        <Link className='nav_docs' to={'/docs/introduction'}>
           Docs
         </Link>
         <Link className='nav_ourTeam' to={'/ourteam'}>
@@ -58,7 +58,7 @@ export default function Navbar() {
         </Link>
         <a
           className='nav_blog'
-          href='https://medium.com/@abagat07/elevate-your-prototyping-experience-overvue-10-0-8035400abd05'>
+          href='https://medium.com/@robsinzieri_64078/boost-your-productivity-and-efficiency-in-vue-js-3cea76cd97c3'>
           Blog
         </a>
         <a
